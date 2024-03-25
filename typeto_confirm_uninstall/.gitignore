@@ -1,0 +1,50 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore logs and backups
+*.log
+*.bak
+
+# Ignore database files
+*.sqlite
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore compiled CSS files
+*.cssc
+*.css.map
+
+
+# Ignore generated translation files
+*.mo
+*.po
+
+# Ignore IDE files and directories
+.idea/
+.vscode/
+
+# Ignore temporary files
+*~
+
+# Ignore Odoo specific files and directories
+__pycache__/
+*.egg-info/
+*.egg
+*.pyo
+
+# Ignore database backups
+*~.bak
+
+# Ignore web assets
+web/assets/
+
+# Ignore Odoo logs
+logs/
+
+# Ignore node modules
+node_modules/
+
+# Ignore build directories
+build/
+dist/
